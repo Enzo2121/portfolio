@@ -5,28 +5,28 @@
   const projects = [
   { 
     title: "Kaizen To-Do-List", 
-    image: "/public/kaizen.png", 
+    image: "../public/kaizen.png", 
     description: "This project transforms the traditional to-do list into a gamified experience...",
     technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
     url: "https://projet-kaizen.vercel.app/"  
   },
   { 
     title: "Photolio", 
-    image: "/public/photolio.png", 
+    image: "../public/photolio.png", 
     description: "This platform allows photographers to create a beautiful...",
     technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
     url: "https://photolio-dev-beta.vercel.app/login"  
   },
   { 
     title: "Ace", 
-    image: "/public/ace.png", 
+    image: "../public/ace.png", 
     description: "Description du projet 3",
     technologies: ["Figma"],
     url: "https://example.com/ace" 
   },
   { 
     title: "Kaizen V2", 
-    image: "/public/kaizen.png", 
+    image: "../public/kaizen.png", 
     description: "Description du projet 4",
     technologies: ["Nuxt", "Supabase", "Tailwind"],
     url: "https://example.com/kaizen-v2" 
