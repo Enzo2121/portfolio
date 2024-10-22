@@ -3,35 +3,36 @@
   import Icon from '@iconify/svelte';
 
   const projects = [
-    { 
-      title: "Kaizen To-Do-List", 
-      image: "src/assets/kaizen.png", 
-      description: "This project transforms the traditional to-do list into a gamified experience, designed to motivate users through interactive rewards and visual customization",
-      technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
-      url: "https://projet-kaizen.vercel.app/"  
-    },
-    { 
-      title: "Photolio", 
-      image: "src/assets/photolio.png", 
-      description: "This platform allows photographers to create a beautiful, fully customized portfolio in record time, combining ease of use with professional quality",
-      technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
-      url: "https://photolio-dev-beta.vercel.app/login"  
-    },
-    { 
-      title: "Ace", 
-      image: "src/assets/ace.png", 
-      description: "Description du projet 3",
-      technologies: ["Figma"],
-      url: "https://example.com/ace" 
-    },
-    { 
-      title: "Kaizen V2", 
-      image: "src/assets/kaizen.png", 
-      description: "Description du projet 4",
-      technologies: ["Nuxt", "Supabase", "Tailwind"],
-      url: "https://example.com/kaizen-v2" 
-    }
-  ];
+  { 
+    title: "Kaizen To-Do-List", 
+    image: "/public/kaizen.png", 
+    description: "This project transforms the traditional to-do list into a gamified experience...",
+    technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
+    url: "https://projet-kaizen.vercel.app/"  
+  },
+  { 
+    title: "Photolio", 
+    image: "/public/photolio.png", 
+    description: "This platform allows photographers to create a beautiful...",
+    technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
+    url: "https://photolio-dev-beta.vercel.app/login"  
+  },
+  { 
+    title: "Ace", 
+    image: "/public/ace.png", 
+    description: "Description du projet 3",
+    technologies: ["Figma"],
+    url: "https://example.com/ace" 
+  },
+  { 
+    title: "Kaizen V2", 
+    image: "/public/kaizen.png", 
+    description: "Description du projet 4",
+    technologies: ["Nuxt", "Supabase", "Tailwind"],
+    url: "https://example.com/kaizen-v2" 
+  }
+];
+
 </script>
 
 <BlurFadeImage duration={2.2} delay={0.8} blur="10px" class="w-full">
