@@ -49,7 +49,7 @@ export default {
             transform: "rotate(90deg)",
           },
         },
-        shine: {  // Ajout de la keyframe shine
+        shine: {  
           from: { backgroundPosition: "0 0" },
           to: { backgroundPosition: "-200% 0" },
         },

@@ -4,6 +4,8 @@
     import Footer from './footer.svelte';
 
   </script>
+
+  <!-- hero -->
   
   <section class="relative overflow-hidden py-36 lg:py-56 px-4 md:px-8">
     <Particles 
