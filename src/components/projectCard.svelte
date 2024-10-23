@@ -20,14 +20,14 @@
   { 
     title: "Ace", 
     image: "/ace.png", 
-    description: "Description du projet 3",
+    description: "en cours de construction",
     technologies: ["Figma"],
     url: "" 
   },
   { 
     title: "Kaizen V2", 
     image: "/kaizen.png", 
-    description: "Description du projet 4",
+    description: "en cours de construction",
     technologies: ["Nuxt", "Supabase", "Tailwind"],
     url: "" 
   }
