@@ -22,14 +22,14 @@
     image: "/ace.png", 
     description: "Description du projet 3",
     technologies: ["Figma"],
-    url: "https://example.com/ace" 
+    url: "" 
   },
   { 
     title: "Kaizen V2", 
     image: "/kaizen.png", 
     description: "Description du projet 4",
     technologies: ["Nuxt", "Supabase", "Tailwind"],
-    url: "https://example.com/kaizen-v2" 
+    url: "" 
   }
 ];
 
