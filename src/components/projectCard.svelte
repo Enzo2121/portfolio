@@ -1,43 +1,42 @@
 <script>
   import BlurFadeImage from "./BlurFadeImage.svelte";
   import Icon from '@iconify/svelte';
+  
 
   const projects = [
-  { 
-    title: "Kaizen To-Do-List", 
-    image: "/kaizen.png", 
-    description: "This project transforms the traditional to-do list into a gamified experience...",
-    technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
-    url: "https://projet-kaizen.vercel.app/"  
-  },
-  { 
-    title: "Photolio", 
-    image: "/photolio.png", 
-    description: "This platform allows photographers to create a beautiful...",
-    technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
-    url: "https://photolio-dev-beta.vercel.app/login"  
-  },
-  { 
-    title: "Ace", 
-    image: "/ace.png", 
-    description: "en cours de construction",
-    technologies: ["Figma"],
-    url: "" 
-  },
-  { 
-    title: "Kaizen V2", 
-    image: "/kaizen.png", 
-    description: "en cours de construction",
-    technologies: ["Nuxt", "Supabase", "Tailwind"],
-    url: "" 
-  }
-];
-
-
+    { 
+      title: "Kaizen To-Do-List", 
+      image: "/kaizen.png", 
+      description: "This project transforms the traditional to-do list into a gamified experience...",
+      technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
+      url: "https://projet-kaizen.vercel.app/"  
+    },
+    { 
+      title: "Photolio", 
+      image: "/photolio.png", 
+      description: "This platform allows photographers to create a beautiful...",
+      technologies: ["Nuxt", "Supabase", "Tailwind", "Figma"],
+      url: "https://photolio-dev-beta.vercel.app"  
+    },
+    { 
+      title: "Ace", 
+      image: "/ace.png", 
+      description: "en cours de construction",
+      technologies: ["Figma"],
+      url: "" 
+    },
+    { 
+      title: "Kaizen V2", 
+      image: "/kaizen.png", 
+      description: "en cours de construction",
+      technologies: ["Nuxt", "Supabase", "Tailwind"],
+      url: "" 
+    }
+  ];
 </script>
 
 <BlurFadeImage duration={2.2} delay={0.8} blur="10px" class="w-full">
-  <section class="flex flex-wrap justify-center gap-5 p-4">
+  <section class="flex flex-wrap justify-center gap-5 p-4 mb-16" id="projects">
     {#each projects as project}
       <a href={project.url} target="_blank" class="project-card group" rel="noopener noreferrer">
         <img src={project.image} alt={project.title} class="project-image group-hover:scale-105" />
@@ -58,8 +57,12 @@
         </div>
       </a>
     {/each}
+
+    
   </section>
 </BlurFadeImage>
+
+
 
 <style>
   .project-card {

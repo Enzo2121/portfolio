@@ -4,7 +4,6 @@
   import { clsx } from 'clsx';
   import { twMerge } from 'tailwind-merge';
 
-  
   function cn(...inputs: (string | undefined)[]) {
     return twMerge(clsx(inputs));
   }
@@ -13,7 +12,11 @@
     name: string;
     link: string;
     icon?: ComponentType;
-  }[] = [];
+  }[] = [
+    { name: 'Home', link: '#' },
+    { name: 'Projects', link: '#projects' }, 
+    { name: 'About me', link: '#' }
+  ];
 
   export let className: string | undefined = undefined;
 </script>
@@ -26,7 +29,6 @@
     rounded-full backdrop-filter backdrop-blur-sm border border-transparent bg-white py-2 pl-8 pr-2 shadow-md 
     dark:border-white/[0.2] dark:bg-white/[0.05]"
 >
-  
   {#each navItems as navItem (`link-${navItem.name}`)}
     <a
       href={navItem.link}

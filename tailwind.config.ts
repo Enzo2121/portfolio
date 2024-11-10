@@ -20,7 +20,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'alegreya': ['Alegreya', 'serif'],
+        geist: ['Geist', 'sans-serif'],
       },
       animation: {
         spotlight: 'spotlight 2s ease .75s 1 forwards',

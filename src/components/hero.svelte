@@ -2,10 +2,11 @@
     import Particles from './Particles.svelte';
     import BlurFade from './BlurFade.svelte'; 
     import Footer from './footer.svelte';
+   
 
   </script>
 
-  <!-- hero -->
+  
   
   <section class="relative overflow-hidden py-36 lg:py-56 px-4 md:px-8">
     <Particles 
@@ -22,7 +23,7 @@
       <div class="py-4">
         <BlurFade delay={0.2}>
           <h3 class="text-[28px] text-[#EFFCFF] font-semibold md:text-6xl">
-            Hey, I’m Enzo, a creative developer that enjoys building cool stuff
+            I’m Enzo, a creative developer that enjoys building cool stuff
           </h3>
         </BlurFade>
   
@@ -54,11 +55,16 @@
             Contact
           </a>
         </BlurFade>
-
+ 
       </div>
-
+      
     </div>
+
+    
+
   </section>
+
+  
   
 
 
